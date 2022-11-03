@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playball', cursive;
+}
+body{
+  background-image: linear-gradient(to bottom, rgb(108, 203, 240) , rgb(237, 173, 184), rgb(36, 173, 227));
+  height: 100vh;
+}
+.nav{
+  height: 100px;
+  background-color: rgb(65, 65, 249);
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content:space-around;
+  align-items: center;
+}
+.link{
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: 'Playball', cursive;
+}
+.container{
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.h1{
+  text-align: center;
+  margin: 20px 0px;
+}
+header{
+  display: flex;
+}
+.head1{
+  flex: 2;
+}
+.btn{
+  padding: 0px 30px;
+  font-size: x-large;
+  border-radius: 30px;
+}
+
+#details{
+  width: 100%;
+  margin: 50px 0px;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 20px;
+}
+#details td{
+
+  padding: 20px;
+}
+tr{
+  border-bottom: 1px solid #000;
+}
+.t-head{
+  font-weight: bold;
+}
+.a{
+  border-bottom: none;
+}
